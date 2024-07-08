@@ -9,7 +9,6 @@
 6. [Visualizations](#visualizations)
 7. [Key Insights](#key-insights)
 8. [Future Improvements](#future-improvements)
-9. [Acknowledgements](#acknowledgements)
 
 ## Project Overview
 
@@ -47,6 +46,8 @@ The data model consists of the following tables and relationships:
 - Geography (dimension table)
 - Date (dimension table)
 
+![Data Modeling](https://raw.githubusercontent.com/M-Maaz-Motiwala/Manufacturer-Analysis-using-Power-BI/b57209f597185547d7ed869d5afe0f2b08160223/Images/modeling.JPG)
+
 Key relationships:
 - Sales to Product (many-to-one on ProductID)
 - Sales to Geography (many-to-one on ZipCountry)
@@ -75,11 +76,16 @@ These measures form the foundation for our trend analysis and performance compar
 5. Sales Distribution: Urban vs Rural (Pie Chart)
 6. Key Performance Indicators (Card Visuals)
 
+![Main Dasboard](https://raw.githubusercontent.com/M-Maaz-Motiwala/Manufacturer-Analysis-using-Power-BI/b57209f597185547d7ed869d5afe0f2b08160223/Images/main%20dashboard.JPG)
+
 ## Key Insights
 1. Urban sales contribute to 97.28% of total revenue
 2. The 'Extreme' category shows the highest growth at 61.94%
 3. USA is the top market by revenue
 4. There's a consistent upward trend in revenue from 2014 to 2021
+   
+![Filters](https://raw.githubusercontent.com/M-Maaz-Motiwala/Manufacturer-Analysis-using-Power-BI/b57209f597185547d7ed869d5afe0f2b08160223/Images/filtered%201.JPG)
+![Filters](https://raw.githubusercontent.com/M-Maaz-Motiwala/Manufacturer-Analysis-using-Power-BI/b57209f597185547d7ed869d5afe0f2b08160223/Images/filtered%202.JPG)
 
 ## Future Improvements
 1. Incorporate more granular geographic data for deeper regional analysis
