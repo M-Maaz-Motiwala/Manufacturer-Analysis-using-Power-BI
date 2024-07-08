@@ -1,0 +1,2 @@
+InternationalSales/* filter=lfs diff=lfs merge=lfs -text
+USSales/* filter=lfs diff=lfs merge=lfs -text
